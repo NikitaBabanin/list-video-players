@@ -5,7 +5,7 @@ const videoList = [
   {
     type: "video/mp4",
     src: "http://vjs.zencdn.net/v/oceans.mp4",
-    poster: "../poster2.jpeg",
+    poster: "../poster.jpeg",
   },
   {
     type: "video/mp4",
@@ -78,6 +78,8 @@ function createAdditionalElements(player) {
     let video = videoList[count];
     player.src = video.src;
     player.poster = video.poster;
+    // player.replay();
+    player.start(video.src);
   });
 }
 
