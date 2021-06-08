@@ -4,10 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./styles/style.css" />
     <title>Video.js</title>
   </head>
   <body>
-    <script src="./scripts/main.js"></script>
+    <div class="wrapper">
+      <video class="video-js" id="video-1">
+        <source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4" />
+        <source src="http://vjs.zencdn.net/v/oceans.webm" type="video/webm" />
+      </video>
+    </div>
+    <div class="video-custom-btn"></div>
+
+    <script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
+    <script src="./index.js"></script>
   </body>
 </html>

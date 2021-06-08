@@ -22,5 +22,7 @@
     "@babel/core": "^7.14.3",
     "@babel/preset-env": "^7.14.4"
   },
-  "dependencies": {}
+  "dependencies": {
+    "video.js": "^7.12.3"
+  }
 }
