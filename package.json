@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/NikitaAndreevich7/list-video-players/issues"
   },
-  "homepage": "https://github.com/NikitaAndreevich7/list-video-players#readme"
+  "homepage": "https://github.com/NikitaAndreevich7/list-video-players#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4"
+  }
 }
